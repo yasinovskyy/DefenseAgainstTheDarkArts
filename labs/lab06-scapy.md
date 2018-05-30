@@ -59,11 +59,18 @@ Example 3: `python alarm.py -i en0` will sniff packets on a wireless interface `
 
 When sniffing on a live interface, the tool must keep running. To quit it, press Control-C
 
+## Getting Started
+Here is a working `alarm.py`: https://gist.github.com/mchow01/f0f498f29d2b3bd095b8c93172c6ecf7
+
+What has been written for you: the handling and parsing of command line arguments, reading of PCAP file, and sniffing of network.  Download and use inside of your Kali VM.  You will also need to install `pcapy` to work in conjunction with `scapy` on Kali Linux as it is not installed.  Run `apt-get install python-pcapy`
+
+If you go web browsing in the virtual machine with the alarm running, you will notice the alarm will go off...
+
 ## Testing Your Tool
 
-Your tool must be able to detect the usernames and passwords sent in-the-clear in `set2.pcap` and `set3.pcap` from the Packet Sleuth lab.
+Your tool must be able to detect the usernames and passwords sent in-the-clear in `set1.pcap`, `set2.pcap`, and `set3.pcap` from the Packet Sleuth lab.
 
-Additional PCAP sets to test your alarm:
+### Additional PCAP sets to test your alarm:
 
 1. http-basic-auth-multiple-failures.pcap: from https://github.com/LiamRandall/BsidesDC-Training/blob/master/http-auth/http-basic-auth-multiple-failures.pcap
 
@@ -95,11 +102,8 @@ Submit two files: the `README` (either `README.txt` or `README.md`) and `alarm.p
 
 ## Assessment
 
-This assignment is worth 25 points.
+This assignment is worth 15 points.
 
 * (3 points) README
-* (2 points) Help interface
-* (4 points) Tool allows network sniffing --and by default on `eth0`
-* (4 points) Tool allows for reading in a PCAP file
-* (2 points) Tool displays alert(s)
+* (2 points) Display alert(s)
 * (10 points) Detection of cleartext passwords, FIN scan, XMAS scan, NULL scan

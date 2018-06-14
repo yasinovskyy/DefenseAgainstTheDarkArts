@@ -25,7 +25,7 @@ Side note: for your interest, my Python program is ~25 lines of code.
 
 ## Learning Python
 
-For this class, we will be using Python 2.7.x. Official tutorial: https://docs.python.org/2.7/tutorial/
+You should use Python 3.x but you are also allowed to use Python 2.x.  Please note on your `README.md` which version of Python you used.
 
 An interactive Python tutorial: https://www.learnpython.org/
 

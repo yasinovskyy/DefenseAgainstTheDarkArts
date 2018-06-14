@@ -60,7 +60,7 @@ Example 3: `python alarm.py -i en0` will sniff packets on a wireless interface `
 When sniffing on a live interface, the tool must keep running. To quit it, press Control-C
 
 ## Getting Started
-Here is a working `alarm.py`: https://gist.github.com/mchow01/f0f498f29d2b3bd095b8c93172c6ecf7
+Here is a working `alarm.py` (in Python 2.x): https://gist.github.com/mchow01/f0f498f29d2b3bd095b8c93172c6ecf7
 
 What has been written for you: the handling and parsing of command line arguments, reading of PCAP file, and sniffing of network.  Download and use inside of your Kali VM.  You will also need to install `pcapy` to work in conjunction with `scapy` on Kali Linux as it is not installed.  Run `apt-get install python-pcapy`
 
@@ -76,7 +76,6 @@ Your tool must be able to detect the usernames and passwords sent in-the-clear i
 
 ## References
 
-* Official Python tutorial (Python 2.7): https://docs.python.org/2.7/tutorial/
 * Scapy documentation (secdev.org): http://www.secdev.org/projects/scapy/doc/usage.html
 * Scapy documentation (via Read the Docs): http://scapy.readthedocs.io/en/latest/
 * Scapy Cheat Sheet (SANS Institute): https://blogs.sans.org/pen-testing/files/2016/04/ScapyCheatSheet_v0.2.pdf

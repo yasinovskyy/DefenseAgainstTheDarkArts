@@ -21,7 +21,7 @@
 </ul>
 <p>Other hypervisor software options include Parallels for macOS (commercial), and QEMU (free and open source).</p>
 
-<p>2. Download a premade 64-bit Kali Linux VM from <a href="http://www.cs.tufts.edu/comp/116/KaliVM.zip">http://www.cs.tufts.edu/comp/116/KaliVM.zip</a> (1.48 GB; SHA256(KaliVM.zip)= <code>0da7179833eebc508b283b0c95bac3dfa9f454d3938c60a5346ad5e3063bd28c</code>).  You will need to unzip the package.  This virtual machine can be used on either VirtualBox or VMware Fusion / Workstation.  This VM has Kali Linux installed as well as the tools that you will be using for this class (e.g., Wireshark, nmap, ettercap, etc).  Files and actions done inside the VM will stay persistent inside of the VM unlike the live ISO option where everything is saved to RAM.  Username is <code>root</code> (so yes, superuser or admin).  Password is <code>toor</code>.</p>
+<p>2. Download a premade 64-bit Kali Linux VM from <a href="http://www.cs.tufts.edu/comp/116/KaliVM.zip">http://www.cs.tufts.edu/comp/116/KaliVM.zip</a> (1.52 GB; SHA256(KaliVM.zip)= <code>775dc03c6dd403686b1aad63072c076b780a5a102521313a3497def4f5d1404d</code>).  You will need to unzip the package.  This virtual machine can be used on either VirtualBox or VMware Fusion / Workstation.  This VM has Kali Linux installed as well as the tools that you will be using for this class (e.g., Wireshark, nmap, ettercap, etc).  Files and actions done inside the VM will stay persistent inside of the VM unlike the live ISO option where everything is saved to RAM.  Username is <code>root</code> (so yes, superuser or admin).  Password is <code>toor</code>.</p>
 
 <p><em>Important note: the premade Kali VM does NOT have <code>open-vm-tools-desktop</code> or VirtualBox Guest Additions preinstalled so you can drag-and-drop files between your VM (guest) and your host (main computer) or share clipboard, cut-and-paste between guest and host.</em></p>
 
@@ -64,6 +64,12 @@
 </ol>
 <p>More: <a href="https://superuser.com/questions/593973/this-virtual-machine-is-configured-for-64-bit-guest-operating-systems-however" target="_blank">https://superuser.com/questions/593973/this-virtual-machine-is-configured-for-64-bit-guest-operating-systems-however</a></p>
 <p>On newer machines and Windows 10, the process may be different: <a href="http://www.dell.com/support/article/us/en/19/sln143038/access-uefi--bios--system-setup-from-windows-on-your-dell-system" target="_blank">http://www.dell.com/support/article/us/en/19/sln143038/access-uefi--bios--system-setup-from-windows-on-your-dell-system</a></p>
+
+<h2>VM Update Notes on July 10, 2018</h2>
+<ul>
+<li>Performed <code>dist-upgrade</code></li>
+<li>Installed <code>tshark</code></li>
+</ul>
 
 <h2>VM Update Notes on March 2, 2018</h2>
 <ul>

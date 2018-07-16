@@ -15,7 +15,7 @@ From OWASP: "Reflected Cross-Site Scripting (XSS) occur when an attacker injects
 
 At the very least, your fuzzer must be (1) written in Python and (2) must able to determine that the page at http://www.cs.tufts.edu/comp/20/hackme.php has a reflected Cross-Site Scripting (XSS) vulnerability.
 
-This lab is worth a total of 10 points. Completing this basic requirement will give you 7 points.
+This lab is worth a total of 10 points. Completing this basic requirement will give you 9 points.
 
 ## Going Beyond
 
@@ -26,7 +26,8 @@ The way I am structuring this lab is to give you freedom and flexibility to do s
 * BONUS Opportunities (+1):
   * Extend the fuzzed to test for another web security vulnerability or to fuzz not just web pages and web applications (e.g., a remote application running on some remote port --e.g., SMB that is a target for WannaCry).
   * Something way cool not listed or perhaps I did not think of. Please email me your idea.
-What's The Point of This Lab?
+
+## What's The Point of This Lab?
 
 Burp Suite, OWASP ZAP, and many web application security suites come with a fuzzer. Case-in-point: watch "How to Fuzz Websites for Cross-Site Scripting (XSS) Using Zed Attack Proxy (ZAP)" (https://www.youtube.com/watch?v=rmbi-VbIK6I). While fuzzers have proven to be valuable, it is important for you to understand how fuzzers work as a good security practitioner. This exercise also provides you more exposure to software testing which isn't emphasized enough (or at all) in a Computer Science curriculum. On a personal note, fuzzing is a topic I still wish I had more exposure to when I started delving into Cyber Security over a decade ago.
 

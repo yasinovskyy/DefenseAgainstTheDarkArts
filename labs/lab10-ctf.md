@@ -53,4 +53,4 @@ So what constitutes a good CTF write-up? For each flag that you finds, the follo
 * The exact location of the flag (path or file name)
 * The exploit or methodology used to find the flag
 
-A list of good CTF write-ups can be found at http://www.betterhacker.com/2012/02/collection-of-ctf-writeups.htmlLinks and at https://github.com/ctfs/write-ups-2016.
+A list of good CTF write-ups can be found at http://www.betterhacker.com/2012/02/collection-of-ctf-writeups.html and at https://github.com/ctfs/write-ups-2016.
